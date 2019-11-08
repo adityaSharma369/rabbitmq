@@ -5,7 +5,7 @@ metadata:
   labels:
     name: some-rabbitmq
 spec:
-  containers:
+  template:
     - image: launcher.gcr.io/google/rabbitmq3
       name: rabbitmq
       env:
